@@ -1,0 +1,41 @@
+#mainnav {
+    background-color: lightgray;
+}
+
+.MenuItem {
+    display: inline-block;
+    padding: 10px;
+    background-color: darkslategray;
+    text-align: center;
+    text-decoration-color: floralwhite;
+
+}
+
+.left {
+    height: 1000px;
+    float: left;
+    background-color: lightblue;
+    width: 30%;
+    text-align: center;
+  }
+  /* target the class of .right below */
+  .right {
+    height: 1000px;
+    float: left;
+    background-color: lightgreen;
+    width: 70%;
+    text-align: center;
+  }
+  #top {
+      height: 400px;
+      background-color: fuchsia;
+      padding: 20px;
+  }
+  #bottom {
+      height: 400px;
+      background-color: orange;
+  }
+  #dogName {
+      font-weight: 300;
+      color: blue;
+  }
