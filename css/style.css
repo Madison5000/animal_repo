@@ -32,10 +32,39 @@
       padding: 20px;
   }
   #bottom {
-      height: 400px;
+      height: 600px;
       background-color: orange;
   }
   #dogName {
       font-weight: 300;
       color: blue;
   }
+
+  #dog1 {
+    display: inline-block;
+    float: left;
+  }
+
+#title1 {
+    text-align: left;
+    color: black;
+    padding-left: 30px;
+    margin-left: 10px;
+}
+
+#maintext {
+    text-align: left;
+    color: black;
+    padding-left: 30px;
+    margin-left: 30px;
+}
+.inner {
+    margin: 50px;
+    padding-left: 30px;
+}
+.rowpics {
+    align-items: center;
+    display: inline-block;
+    height: 100%;
+    width: 150px
+}
